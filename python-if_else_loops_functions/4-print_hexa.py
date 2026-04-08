@@ -1,2 +1,3 @@
 #!/usr/bin/python3
-print(hex(0))
+for i in range(99):
+    print(f"{i} = {hex(0)}")
