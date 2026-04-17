@@ -1,2 +1,2 @@
 -- dsaf
-SHOW DATABSES;
+SHOW DATABASES;
