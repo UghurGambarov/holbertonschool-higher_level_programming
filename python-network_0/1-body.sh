@@ -1,3 +1,3 @@
 #!/bin/bash
-# asdfkjalskdfja;lskdjfl
-res=$(curl -s -w "%{http_code}" "$1") [ "${res: -3}" -eq 200 ] && echo "${res::-3}"
+res=$(curl -s -o /tmp/body -w "%{http_code}" "$1")
+[ "$res" -eq 200 ] && cat /tmp/body
