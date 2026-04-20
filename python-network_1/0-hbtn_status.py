@@ -1,6 +1,7 @@
 #!/usr/bin/python3
-"""Fetches the status from the Holberton intranet and displays response details."""
+"""Fetches status from the Holberton intranet and displays response details."""
 import urllib.request
+
 
 if __name__ == "__main__":
     req = urllib.request.Request(
